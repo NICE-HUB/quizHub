@@ -7,44 +7,542 @@
     <title> ReadMe</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="programming/bootsrap.html">
-          <b>B</b>OOTSTRAP
-          <style>
-            .navbar-brand b {
-              color: rgba(35, 59, 154, 0.607);
-              }
-          </style>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class= "nav justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link" href="/programming.html">TUTORIALS</a>
-            </li>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-          </Ul>
+    <!--header-->
+    <div class="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="programming/bootsrap.html">
+            <b>B</b>OOTSTRAP
+            <style>
+              .navbar-brand b {
+                color: rgba(35, 59, 154, 0.607);
+                }
+            </style>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class= "nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" href="/programming.html">TUTORIALS</a>
+              </li>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            </Ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <div class="nav flex-column">
-      <style>
-        .nav- {
-          padding: 30px;
-          text-align: left;
-          line-height: normal;
-        }
-      </style>
-      <a class="nav-active" aria-current="page" href="#">Active</a>
-      <a class="nav-" href="#">Link</a>
-      <a class="nav-" href="#">Link</a>
-      <a class="nav- disabled">Disabled</a>
+      </nav>
     </div>
-  </body>
+   
+    <!--MAIN-->
+    <div class="sections">
+    <style>
+      .sections {
+        background-color: rgb(40, 186, 234);
+        color: aliceblue;
+      }
+    </style>
+    <details>
+        <summary> GetStarted</summary>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <details>
+                <summary>What is Bootstrap</summary>
+                  <p>Bootstrap is a free front-end framework for faster and easier web development
+                    Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins
+                    Bootstrap also gives you the ability to easily create responsive designs
+                    <p>Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops. </p>
+              </details>
+            </div>
+            <div class="col-sm-4">
+              <details>
+                <summary>Bootstrap Basics</summary>
+                  <p>Bootstrap 5 is the newest version of Bootstrap, which is the most popular HTML, CSS, and JavaScript framework for creating responsive, mobile-first websites.</p>
+                  <p>Bootstrap 5 is completely free to download and use! </p>
+              </details>
+            </div>
+            <div class="col-sm-4">
+              <details>
+                <summary>Why Use Bootstrap?</summary>
+                  <p>Advantages of Bootstrap:</p>
+                <p>Easy to use: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap
+                    Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops
+                    Mobile-first approach: In Bootstrap, mobile-first styles are part of the core framework
+                    Browser compatibility: Bootstrap 5 is compatible with all modern browsers (Chrome, Firefox, Edge, Safari, and Opera). Note that if you need support for IE11 and down, you must use either BS4 or BS3.</p>
+             </details>
+            </div>
+          </div>
+        </div>
+        </details>
+        <details>
+          <summary> IntroductionToBootstrap</summary>
+          <div class="container mt-5">
+            <div class="row">
+              <div class="col-sm-4">
+                <details>
+                  <summary>Where to Get Bootstrap 5?</summary>
+                    <p>There are two ways to start using Bootstrap 5 on your own web site.</p>
+                <p>You can:
+
+                  Include Bootstrap 5 from a CDN
+                  Download Bootstrap 5 from getbootstrap.com
+                  .</p>
+                </details>
+              </div>
+              <div class="col-sm-4">
+                <details>
+                  <summary>Bootstrap 5 CDN</summary>
+                    <p>If you don't want to download and host Bootstrap 5 yourself, you can include it from a CDN (Content Delivery Network).</p>
+                <p>jsDelivr provides CDN support for Bootstrap's CSS and JavaScript:
+                  <a href="https://www.jsdelivr.com/package/npm/bootstrap" target="_blank">https://www.jsdelivr.com/package/npm/bootstrap</a>
+                </p>
+                </details>
+              </div>
+              <div class="col-sm-4">
+                <details>
+                  <summary>Why Bootsrap CDN</summary>
+                    <p>Many users already have downloaded Bootstrap 5 from jsDelivr when visiting another site.</p>
+                <p> As a result, it will be loaded from cache when they visit your site, which leads to faster loading time. Also, most CDN's will make sure that once a user requests a file from it, it will be served from the server closest to them, which also leads to faster loading time.</p>
+                </details>
+              </div>
+            </div>
+          </div>
+        </details>
+        <details>
+          <summary> Create Your First Web Page With Bootstrap5</summary>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4">
+                <details>
+                  <summary> Basic Bootstrap 5 Pages</summary>
+                    <p>The following example shows the code for a basic Bootstrap 5 page (with a responsive fixed width container):</p>
+                  
+                     <a href="https://codepen.io/codebender828/pen/JaxPVd"><i>check this</i></a>
+                      <p>The following example shows the code for a basic Bootstrap 5 page (with a full width container):</p>
+                      <a href="https://codepen.io/codebender828/pen/JaxPVd"><i> full width container</i></a>
+                </details>
+              </div>
+              <div class="col-sm-4">
+                <details>
+                  <summary>TYPOGRAPHY</summary>
+                    <p>Bootstrap 5 is the newest version of Bootstrap, which is the most popular HTML, CSS, and JavaScript framework for creating responsive, mobile-first websites.</p>
+                    <p>Bootstrap 5 is completely free to download and use! </p>
+                </details>
+              </div>
+              <div class="col-sm-4">
+                <details>
+                  <summary>COLORS</summary>
+                    <p>Advantages of Bootstrap:</p>
+                  <p>Easy to use: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap
+                      Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops
+                      Mobile-first approach: In Bootstrap, mobile-first styles are part of the core framework
+                      Browser compatibility: Bootstrap 5 is compatible with all modern browsers (Chrome, Firefox, Edge, Safari, and Opera). Note that if you need support for IE11 and down, you must use either BS4 or BS3.</p>
+               </details>
+              </div>
+            </div>
+          </div>
+          </details>
+          <details>
+            <summary> TABLES</summary>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-4">
+                  <details>
+                    <summary>IMAGES</summary>
+                      <p>Bootstrap is a free front-end framework for faster and easier web development
+                        Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins
+                        Bootstrap also gives you the ability to easily create responsive designs
+                        <p>Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops. </p>
+                  </details>
+                </div>
+                <div class="col-sm-4">
+                  <details>
+                    <summary>ALERTS</summary>
+                      <p>Bootstrap 5 is the newest version of Bootstrap, which is the most popular HTML, CSS, and JavaScript framework for creating responsive, mobile-first websites.</p>
+                      <p>Bootstrap 5 is completely free to download and use! </p>
+                  </details>
+                </div>
+                <div class="col-sm-4">
+                  <details>
+                    <summary>BUTTONS</summary>
+                      <p>Advantages of Bootstrap:</p>
+                    <p>Easy to use: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap
+                        Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops
+                        Mobile-first approach: In Bootstrap, mobile-first styles are part of the core framework
+                        Browser compatibility: Bootstrap 5 is compatible with all modern browsers (Chrome, Firefox, Edge, Safari, and Opera). Note that if you need support for IE11 and down, you must use either BS4 or BS3.</p>
+                 </details>
+                </div>
+              </div>
+            </div>
+            </details>
+            <details>
+              <summary> ---BUTTON GROUPS</summary>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <details>
+                      <summary>What is Bootstrap</summary>
+                        <p>Bootstrap is a free front-end framework for faster and easier web development
+                          Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins
+                          Bootstrap also gives you the ability to easily create responsive designs
+                          <p>Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops. </p>
+                    </details>
+                  </div>
+                  <div class="col-sm-4">
+                    <details>
+                      <summary>BADGES</summary>
+                        <p>Bootstrap 5 is the newest version of Bootstrap, which is the most popular HTML, CSS, and JavaScript framework for creating responsive, mobile-first websites.</p>
+                        <p>Bootstrap 5 is completely free to download and use! </p>
+                    </details>
+                  </div>
+                  <div class="col-sm-4">
+                    <details>
+                      <summary>PROGRESS BARS</summary>
+                        <p>Advantages of Bootstrap:</p>
+                      <p>Easy to use: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap
+                          Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops
+                          Mobile-first approach: In Bootstrap, mobile-first styles are part of the core framework
+                          Browser compatibility: Bootstrap 5 is compatible with all modern browsers (Chrome, Firefox, Edge, Safari, and Opera). Note that if you need support for IE11 and down, you must use either BS4 or BS3.</p>
+                   </details>
+                  </div>
+                </div>
+              </div>
+          </details>
+          <details>
+            <summary> SPINNERS</summary>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-4">
+                  <details>
+                    <summary>What is Bootstrap</summary>
+                      <p>Bootstrap is a free front-end framework for faster and easier web development
+                        Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins
+                        Bootstrap also gives you the ability to easily create responsive designs
+                        <p>Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops. </p>
+                  </details>
+                </div>
+                <div class="col-sm-4">
+                  <details>
+                    <summary>PAGINATIONS</summary>
+                      <p>Bootstrap 5 is the newest version of Bootstrap, which is the most popular HTML, CSS, and JavaScript framework for creating responsive, mobile-first websites.</p>
+                      <p>Bootstrap 5 is completely free to download and use! </p>
+                  </details>
+                </div>
+                <div class="col-sm-4">
+                  <details>
+                    <summary>LIST GROUPS</summary>
+                      <p>Advantages of Bootstrap:</p>
+                    <p>Easy to use: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap
+                        Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops
+                        Mobile-first approach: In Bootstrap, mobile-first styles are part of the core framework
+                        Browser compatibility: Bootstrap 5 is compatible with all modern browsers (Chrome, Firefox, Edge, Safari, and Opera). Note that if you need support for IE11 and down, you must use either BS4 or BS3.</p>
+                 </details>
+                </div>
+              </div>
+            </div>
+            </details>
+            <details>
+              <summary> CARDS</summary>
+              <div class="container mt-5">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <details>
+                      <summary>DROPDOWNS</summary>
+                        <p>There are two ways to start using Bootstrap 5 on your own web site.</p>
+                    <p>You can:
+    
+                      Include Bootstrap 5 from a CDN
+                      Download Bootstrap 5 from getbootstrap.com
+                      .</p>
+                    </details>
+                  </div>
+                  <div class="col-sm-4">
+                    <details>COLLAPSE</summary>
+                        <p>If you don't want to download and host Bootstrap 5 yourself, you can include it from a CDN (Content Delivery Network).</p>
+                    <p>jsDelivr provides CDN support for Bootstrap's CSS and JavaScript:
+                      <a href="https://www.jsdelivr.com/package/npm/bootstrap" target="_blank">https://www.jsdelivr.com/package/npm/bootstrap</a>
+                    </p>
+                    </details>
+                  </div>
+                  <div class="col-sm-4">
+                    <details>
+                      <summary>NAVS</summary>
+                        <p>Many users already have downloaded Bootstrap 5 from jsDelivr when visiting another site.</p>
+                    <p> As a result, it will be loaded from cache when they visit your site, which leads to faster loading time. Also, most CDN's will make sure that once a user requests a file from it, it will be served from the server closest to them, which also leads to faster loading time.</p>
+                    </details>
+                  </div>
+                </div>
+              </div>
+            </details>
+            <details>
+              <summary> NAVBAR</summary>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <details>
+                      <summary> CAROUSEL</summary>
+                        <p>The following example shows the code for a basic Bootstrap 5 page (with a responsive fixed width container):</p>
+                      
+                         <a href="https://codepen.io/codebender828/pen/JaxPVd"><i>check this</i></a>
+                          <p>The following example shows the code for a basic Bootstrap 5 page (with a full width container):</p>
+                          <a href="https://codepen.io/codebender828/pen/JaxPVd"><i> full width container</i></a>
+                    </details>
+                  </div>
+                  <div class="col-sm-4">
+                    <details>
+                      <summary>MODAL</summary>
+                        <p>Bootstrap 5 is the newest version of Bootstrap, which is the most popular HTML, CSS, and JavaScript framework for creating responsive, mobile-first websites.</p>
+                        <p>Bootstrap 5 is completely free to download and use! </p>
+                    </details>
+                  </div>
+                  <div class="col-sm-4">
+                    <details>
+                      <summary>TOOLTIP</summary>
+                        <p>Advantages of Bootstrap:</p>
+                      <p>Easy to use: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap
+                          Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops
+                          Mobile-first approach: In Bootstrap, mobile-first styles are part of the core framework
+                          Browser compatibility: Bootstrap 5 is compatible with all modern browsers (Chrome, Firefox, Edge, Safari, and Opera). Note that if you need support for IE11 and down, you must use either BS4 or BS3.</p>
+                   </details>
+                  </div>
+                </div>
+              </div>
+              </details>
+              <details>
+                <summary> POPOVER</summary>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <details>
+                        <summary>TOAST</summary>
+                          <p>Bootstrap is a free front-end framework for faster and easier web development
+                            Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins
+                            Bootstrap also gives you the ability to easily create responsive designs
+                            <p>Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops. </p>
+                      </details>
+                    </div>
+                    <div class="col-sm-4">
+                      <details>
+                        <summary>SCROLLSPY</summary>
+                          <p>Bootstrap 5 is the newest version of Bootstrap, which is the most popular HTML, CSS, and JavaScript framework for creating responsive, mobile-first websites.</p>
+                          <p>Bootstrap 5 is completely free to download and use! </p>
+                      </details>
+                    </div>
+                    <div class="col-sm-4">
+                      <details>
+                        <summary>OFFCANVAS</summary>
+                          <p>Advantages of Bootstrap:</p>
+                        <p>Easy to use: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap
+                            Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops
+                            Mobile-first approach: In Bootstrap, mobile-first styles are part of the core framework
+                            Browser compatibility: Bootstrap 5 is compatible with all modern browsers (Chrome, Firefox, Edge, Safari, and Opera). Note that if you need support for IE11 and down, you must use either BS4 or BS3.</p>
+                     </details>
+                    </div>
+                  </div>
+                </div>
+                </details>
+                <details>
+                  <summary>UTILITIES</summary>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <details>
+                          <summary>What is Bootstrap</summary>
+                            <p>Bootstrap is a free front-end framework for faster and easier web development
+                              Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins
+                              Bootstrap also gives you the ability to easily create responsive designs
+                              <p>Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops. </p>
+                        </details>
+                      </div>
+                      <div class="col-sm-4">
+                        <details>
+                          <summary>FLEX</summary>
+                            <p>Bootstrap 5 is the newest version of Bootstrap, which is the most popular HTML, CSS, and JavaScript framework for creating responsive, mobile-first websites.</p>
+                            <p>Bootstrap 5 is completely free to download and use! </p>
+                        </details>
+                      </div>
+                      <div class="col-sm-4">
+                        <details>
+                          <summary>FORMS</summary>
+                            <p>Advantages of Bootstrap:</p>
+                          <p>Easy to use: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap
+                              Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops
+                              Mobile-first approach: In Bootstrap, mobile-first styles are part of the core framework
+                              Browser compatibility: Bootstrap 5 is compatible with all modern browsers (Chrome, Firefox, Edge, Safari, and Opera). Note that if you need support for IE11 and down, you must use either BS4 or BS3.</p>
+                       </details>
+                      </div>
+                    </div>
+                  </div>
+              </details>
+              <details>
+                <summary> SELECT MENUS</summary>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <details>
+                        <summary>CHECKS & RADIOS</summary>
+                          <p>Bootstrap is a free front-end framework for faster and easier web development
+                            Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins
+                            Bootstrap also gives you the ability to easily create responsive designs
+                            <p>Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops. </p>
+                      </details>
+                    </div>
+                    <div class="col-sm-4">
+                      <details>
+                        <summary>RANGE</summary>
+                          <p>Bootstrap 5 is the newest version of Bootstrap, which is the most popular HTML, CSS, and JavaScript framework for creating responsive, mobile-first websites.</p>
+                          <p>Bootstrap 5 is completely free to download and use! </p>
+                      </details>
+                    </div>
+                    <div class="col-sm-4">
+                      <details>
+                        <summary>INPUT GROUPS</summary>
+                          <p>Advantages of Bootstrap:</p>
+                        <p>Easy to use: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap
+                            Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops
+                            Mobile-first approach: In Bootstrap, mobile-first styles are part of the core framework
+                            Browser compatibility: Bootstrap 5 is compatible with all modern browsers (Chrome, Firefox, Edge, Safari, and Opera). Note that if you need support for IE11 and down, you must use either BS4 or BS3.</p>
+                     </details>
+                    </div>
+                  </div>
+                </div>
+                </details>
+                <details>
+                  <summary> INPUT GROUPS</summary>
+                  <div class="container mt-5">
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <details>
+                          <summary>FLOATING LABELS</summary>
+                            <p>There are two ways to start using Bootstrap 5 on your own web site.</p>
+                        <p>You can:
+                          Include Bootstrap 5 from a CDN
+                          Download Bootstrap 5 from getbootstrap.com
+                          .</p>
+                        </details>
+                      </div>
+                      <div class="col-sm-4">
+                        <details>
+                          <summary>FORM VALIDATION</summary>
+                            <p>If you don't want to download and host Bootstrap 5 yourself, you can include it from a CDN (Content Delivery Network).</p>
+                        <p>jsDelivr provides CDN support for Bootstrap's CSS and JavaScript:
+                          <a href="https://www.jsdelivr.com/package/npm/bootstrap" target="_blank">https://www.jsdelivr.com/package/npm/bootstrap</a>
+                        </p>
+                        </details>
+                      </div>
+                      <div class="col-sm-4">
+                        <details>
+                          <summary>Why Bootsrap CDN</summary>
+                            <p>Many users already have downloaded Bootstrap 5 from jsDelivr when visiting another site.</p>
+                        <p> As a result, it will be loaded from cache when they visit your site, which leads to faster loading time. Also, most CDN's will make sure that once a user requests a file from it, it will be served from the server closest to them, which also leads to faster loading time.</p>
+                        </details>
+                      </div>
+                    </div>
+                  </div>
+                </details>
+                <details>
+                  <summary> Create Your First Web Page With Bootstrap5</summary>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <details>
+                          <summary> Basic Bootstrap 5 Pages</summary>
+                            <p>The following example shows the code for a basic Bootstrap 5 page (with a responsive fixed width container):</p>
+                          
+                             <a href="https://codepen.io/codebender828/pen/JaxPVd"><i>check this</i></a>
+                              <p>The following example shows the code for a basic Bootstrap 5 page (with a full width container):</p>
+                              <a href="https://codepen.io/codebender828/pen/JaxPVd"><i> full width container</i></a>
+                        </details>
+                      </div>
+                      <div class="col-sm-4">
+                        <details>
+                          <summary>Bootstrap Basics</summary>
+                            <p>Bootstrap 5 is the newest version of Bootstrap, which is the most popular HTML, CSS, and JavaScript framework for creating responsive, mobile-first websites.</p>
+                            <p>Bootstrap 5 is completely free to download and use! </p>
+                        </details>
+                      </div>
+                      <div class="col-sm-4">
+                        <details>
+                          <summary>Why Use Bootstrap?</summary>
+                            <p>Advantages of Bootstrap:</p>
+                          <p>Easy to use: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap
+                              Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops
+                              Mobile-first approach: In Bootstrap, mobile-first styles are part of the core framework
+                              Browser compatibility: Bootstrap 5 is compatible with all modern browsers (Chrome, Firefox, Edge, Safari, and Opera). Note that if you need support for IE11 and down, you must use either BS4 or BS3.</p>
+                       </details>
+                      </div>
+                    </div>
+                  </div>
+                  </details>
+                  <details>
+                    <summary> Containers</summary>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-sm-4">
+                          <details>
+                            <summary>What is Bootstrap</summary>
+                              <p>Bootstrap is a free front-end framework for faster and easier web development
+                                Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins
+                                Bootstrap also gives you the ability to easily create responsive designs
+                                <p>Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops. </p>
+                          </details>
+                        </div>
+                        <div class="col-sm-4">
+                          <details>
+                            <summary>Bootstrap Basics</summary>
+                              <p>Bootstrap 5 is the newest version of Bootstrap, which is the most popular HTML, CSS, and JavaScript framework for creating responsive, mobile-first websites.</p>
+                              <p>Bootstrap 5 is completely free to download and use! </p>
+                          </details>
+                        </div>
+                        <div class="col-sm-4">
+                          <details>
+                            <summary>Why Use Bootstrap?</summary>
+                              <p>Advantages of Bootstrap:</p>
+                            <p>Easy to use: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap
+                                Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops
+                                Mobile-first approach: In Bootstrap, mobile-first styles are part of the core framework
+                                Browser compatibility: Bootstrap 5 is compatible with all modern browsers (Chrome, Firefox, Edge, Safari, and Opera). Note that if you need support for IE11 and down, you must use either BS4 or BS3.</p>
+                         </details>
+                        </div>
+                      </div>
+                    </div>
+                    </details>
+                    <details>
+                      <summary> Grid Basic</summary>
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-sm-4">
+                            <details>
+                              <summary>What is Bootstrap</summary>
+                                <p>Bootstrap is a free front-end framework for faster and easier web development
+                                  Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins
+                                  Bootstrap also gives you the ability to easily create responsive designs
+                                  <p>Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops. </p>
+                            </details>
+                          </div>
+                          <div class="col-sm-4">
+                            <details>
+                              <summary>Bootstrap Basics</summary>
+                                <p>Bootstrap 5 is the newest version of Bootstrap, which is the most popular HTML, CSS, and JavaScript framework for creating responsive, mobile-first websites.</p>
+                                <p>Bootstrap 5 is completely free to download and use! </p>
+                            </details>
+                          </div>
+                          <div class="col-sm-4">
+                            <details>
+                              <summary>Typography</summary>
+                                <p>Advantages of Bootstrap:</p>
+                              <p>Easy to use: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap
+                                  Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops
+                                  Mobile-first approach: In Bootstrap, mobile-first styles are part of the core framework
+                                  Browser compatibility: Bootstrap 5 is compatible with all modern browsers (Chrome, Firefox, Edge, Safari, and Opera). Note that if you need support for IE11 and down, you must use either BS4 or BS3.</p>
+                           </details>
+                          </div>
+                        </div>
+                      </div>
+                  </details>
+</body>
 </html>
